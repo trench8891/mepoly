@@ -1,3 +1,11 @@
+/*
+ * It seems like the romanceable characters each have an Another_is_penultimate function
+ * that checks to see if any other romanceable character is actively romanced.
+ * Monogamy can be bypassed by simply having those functions always return FALSE
+ * 
+ * - trench8891
+ */
+
 // LE2.Global.Henchmen.Vixen.Another_is_penultimate
 public function bool F803(BioWorldInfo bioWorld, int Argument) { return FALSE; }
 
@@ -19,9 +27,19 @@ public function bool F894(BioWorldInfo bioWorld, int Argument) { return FALSE; }
 // LE2.Global.Henchmen.Mystic.No_other_is_penultimate
 public function bool F1003(BioWorldInfo bioWorld, int Argument) { return TRUE; }
 
+/*
+ * Vanilla Tali specifically requires additional reassurance of monogamy if Shephard has flirted with others
+ * Returning FALSE here should bypass that conversation check
+ * 
+ */
 // LE2.Global.Henchmen.Tali.R4_with_Another_Girl
 public function bool F1018(BioWorldInfo bioWorld, int Argument) { return FALSE; }
 
+/*
+ * Chambers "romance" works a little differently,
+ * so instead of just returning FALSE we remove elements of the check involving other romances
+ * and leave the rest untouched
+ */
 // LE2.Global.Normandy.Yeoman.Easter_egg_active
 // (LE2.Global.Normandy.Messages.Message_17 >= 2) && (LE2.Global.Normandy.Yeoman.Relationship == 2)
 public function bool F1536(BioWorldInfo bioWorld, int Argument)
