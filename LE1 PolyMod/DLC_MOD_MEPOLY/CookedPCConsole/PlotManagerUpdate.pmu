@@ -1,0 +1,20 @@
+/*
+ * It seems like monogamy is enforced by marking the romance not chosen during the confrontation as
+ * cancelled, in which case HOPEFULLY we can bypass that by avoiding the confrontation entirely.
+ * I'm not entirely certain what the other conditionals here are for, but I assume they are used to
+ * see if anyone is jealous.
+ * 
+ * - trench8891
+ */
+
+// LE1.Global_Plots.Henchman_Ash.Check_Ash_and_Liara_Active
+public function bool F848(BioWorldInfo bioWorld, int Argument) { return FALSE; }
+
+// LE1.Global_Plots.Henchman_Liara.Time_for_Ashley_Confrontation
+public function bool F929(BioWorldInfo bioWorld, int Argument) { return FALSE; }
+
+// LE1.Global_Plots.Henchman_Liara.Time_for_Kaidan_Confrontation
+public function bool F930(BioWorldInfo bioWorld, int Argument) { return FALSE; }
+
+// LE1.Global_Plots.Henchman_Liara.human_romance_past_point_of_no_return
+public function bool F1213(BioWorldInfo bioWorld, int Argument) { return FALSE; }
