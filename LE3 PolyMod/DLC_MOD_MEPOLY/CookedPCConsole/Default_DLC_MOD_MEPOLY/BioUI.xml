@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CoalesceAsset id="BioUI" name="bioui.ini" source="..\..\biogame\config\bioui.ini">
 	<Sections>
-		<Section name="sfxgamecontent.sfxguidata_modsettings_polyrom">
+		<Section name="sfxgamecontent.sfxguidata_modsettings_mepoly">
 			<Property name="confirmationmessageatextoverride" type="0">247370</Property>
 			<Property name="m_sratext" type="3">1800049</Property>
 			<Property name="m_srbtext" type="3">576055</Property>
@@ -11,14 +11,14 @@
 				<Value type="3">(DisplayPlotBool=31501,ApplySettingBools[0]=-31501,ApplySettingBools[1]=-31502,ChoiceEntry=(srChoiceName=9896532,srChoiceDescription=9896534),Images[0]="Store_Images.PR_NoJ")</Value>
 				<Value type="3">(DisplayConditional=25359,ApplySettingBools[0]=31502,ChoiceEntry=(srChoiceName=9896535,srChoiceDescription=9896537),Images[0]="Store_Images.PR_Quiet")</Value>
 				<Value type="3">(DisplayPlotBool=31502,ApplySettingBools[0]=-31502,ChoiceEntry=(srChoiceName=9896536,srChoiceDescription=9896538),Images[0]="Store_Images.PR_Quiet")</Value>
-				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_PolyROM_TL",ChoiceEntry=(srChoiceName=9896504,srChoiceDescription=9896525),Images[0]="Store_Images.PR_TL")</Value>
+				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_MEPOLY_TL",ChoiceEntry=(srChoiceName=9896504,srChoiceDescription=9896525),Images[0]="Store_Images.PR_TL")</Value>
 				<Value type="3">(DisplayPlotBool=-31500,ApplySettingBools[0]=31500,ChoiceEntry=(srChoiceName=9896502,srChoiceDescription=9896528),Images[0]="Store_Images.PR_GT")</Value>
 				<Value type="3">(DisplayPlotBool=31500,ApplySettingBools[0]=-31500,ChoiceEntry=(srChoiceName=9896503,srChoiceDescription=9896529),Images[0]="Store_Images.PR_GT")</Value>
 				<Value type="3">(DisplayPlotBool=-31503,ApplySettingBools[0]=31503,ChoiceEntry=(srChoiceName=9896539,srChoiceDescription=9896541),Images[0]="Store_Images.PR_JA")</Value>
 				<Value type="3">(DisplayPlotBool=31503,ApplySettingBools[0]=-31503,ChoiceEntry=(srChoiceName=9896540,srChoiceDescription=9896542),Images[0]="Store_Images.PR_JA")</Value>
 			</Property>
 		</Section>
-		<Section name="sfxgamecontent.sfxguidata_modsettings_polyrom_couch">
+		<Section name="sfxgamecontent.sfxguidata_modsettings_mepoly_couch">
 			<Property name="confirmationmessageatextoverride" type="0">247370</Property>
 			<Property name="m_sratext" type="3">1800049</Property>
 			<Property name="m_srbtext" type="3">576055</Property>
@@ -56,7 +56,7 @@
 				<Value type="3">(DisplayPlotBool=-31518,ChoiceEntry=(srChoiceName=9896562,srChoiceDescription=9896554),ApplySettingBools[0]=31504, ApplySettingBools[1]=-31505, ApplySettingBools[2]=-31506, ApplySettingBools[3]=-31507, ApplySettingBools[4]=-31508, ApplySettingBools[5]=-31509, ApplySettingBools[6]=-31510, ApplySettingBools[7]=-31511, ApplySettingBools[8]=-31512, ApplySettingBools[9]=-31513, ApplySettingBools[10]=-31514, ApplySettingBools[11]=-31515, ApplySettingBools[12]=-31516, ApplySettingBools[13]=-31517, ApplySettingBools[14]=31518, Images[0]="Store_Images.PR_C6")</Value>
 			</Property>
 		</Section>
-		<Section name="sfxgamecontent.sfxguidata_modsettings_polyrom_party">
+		<Section name="sfxgamecontent.sfxguidata_modsettings_mepoly_party">
 			<Property name="confirmationmessageatextoverride" type="0">247370</Property>
 			<Property name="m_sratext" type="3">1800049</Property>
 			<Property name="m_srbtext" type="3">576055</Property>
@@ -71,19 +71,19 @@
 				<Value type="3">(DisplayPlotInt=(PlotIntId=12480,PlotIntValue=2),ChoiceEntry=(srChoiceName=9896522,bDisabled=true),Images[0]="Store_Images.PR_J2")</Value>
 			</Property>
 		</Section>
-		<Section name="sfxgamecontent.sfxguidata_modsettings_polyrom_partyup">
+		<Section name="sfxgamecontent.sfxguidata_modsettings_mepoly_partyup">
 			<Property name="confirmationmessageatextoverride" type="0">247370</Property>
 			<Property name="m_sratext" type="3">1800049</Property>
 			<Property name="m_srbtext" type="3">576055</Property>
 			<Property name="m_srtitle" type="3">9896567</Property>
 			<Property name="modsettingitemarray">
-				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_PolyROM_Party",ChoiceEntry=(srChoiceName=9896523,srChoiceDescription=9896524),Images[0]="DLC_MPImages.Party_IMG")</Value>
-				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_PolyROM_Couch",ChoiceEntry=(srChoiceName=9896555,srChoiceDescription=9896556),Images[0]="Store_Images.PR_Couch")</Value>
+				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_MEPOLY_Party",ChoiceEntry=(srChoiceName=9896523,srChoiceDescription=9896524),Images[0]="DLC_MPImages.Party_IMG")</Value>
+				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_MEPOLY_Couch",ChoiceEntry=(srChoiceName=9896555,srChoiceDescription=9896556),Images[0]="Store_Images.PR_Couch")</Value>
 				<Value type="3">(DisplayPlotBool=-31519,ApplySettingBools[0]=31519,ChoiceEntry=(srChoiceName=9896564,srChoiceDescription=9896565),Images[0]="Store_Images.PR_Party")</Value>
 				<Value type="3">(DisplayPlotBool=31519,ApplySettingBools[0]=-31519,ChoiceEntry=(srChoiceName=9896563,srChoiceDescription=9896566),Images[0]="Store_Images.PR_Party")</Value>
 			</Property>
 		</Section>
-		<Section name="sfxgamecontent.sfxguidata_modsettings_polyrom_tl">
+		<Section name="sfxgamecontent.sfxguidata_modsettings_mepoly_tl">
 			<Property name="confirmationmessageatextoverride" type="0">247370</Property>
 			<Property name="m_sratext" type="3">1800049</Property>
 			<Property name="m_srbtext" type="3">576055</Property>
@@ -114,8 +114,8 @@
 		</Section>
 		<Section name="sfxgamecontent.sfxguidata_modsettings_root">
 			<Property name="modsettingitemarray">
-				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_PolyROM",ChoiceEntry=(srChoiceName=9896505,srChoiceDescription=9896506),Images[0]="Store_Images.PR_Thumb")</Value>
-				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_PolyROM_PartyUP",ChoiceEntry=(srChoiceName=9896567,srChoiceDescription=9896568),Images[0]="Store_Images.PR_PartyUP")</Value>
+				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_MEPOLY",ChoiceEntry=(srChoiceName=9896505,srChoiceDescription=9896506),Images[0]="Store_Images.PR_Thumb")</Value>
+				<Value type="3">(SubMenuClassName="SFXGameContent.SFXGUIData_ModSettings_MEPOLY_PartyUP",ChoiceEntry=(srChoiceName=9896567,srChoiceDescription=9896568),Images[0]="Store_Images.PR_PartyUP")</Value>
 			</Property>
 		</Section>
 	</Sections>
